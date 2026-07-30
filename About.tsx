@@ -56,7 +56,7 @@ export default function About() {
           >
             <div className="relative rounded-[2rem] overflow-hidden shadow-xl aspect-square md:aspect-auto md:h-[600px]">
               <img 
-                src="/images/classroom.svg" 
+                src="/images/about-ai.jpg" 
                 alt="Warm cozy classroom interior" 
                 className="w-full h-full object-cover"
               />

@@ -2,12 +2,16 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const GALLERY_IMAGES = [
-  { title: 'Creative Classroom', image: '/images/classroom.svg' },
-  { title: 'Reading Corner', image: '/images/programs.svg' },
-  { title: 'Playful Activities', image: '/images/activity.svg' },
-  { title: 'Bright Campus', image: '/images/hero.svg' },
-  { title: 'Happy Learners', image: '/images/classroom.svg' },
-  { title: 'Celebration Day', image: '/images/activity.svg' },
+  { title: 'Classroom Learning', image: '/images/gallery-1.jpg' },        // real
+  { title: 'Bright School Campus', image: '/images/hero-ai.jpg' },        // AI
+  { title: 'Students Reading', image: '/images/gallery-2.jpg' },          // real
+  { title: 'Nursery Class', image: '/images/program-nursery-ai.jpg' },    // AI
+  { title: 'Welcome to Our Class', image: '/images/gallery-3.jpg' },      // real
+  { title: 'Craft & Activity', image: '/images/gallery-5.jpg' },          // real
+  { title: 'School Activities', image: '/images/activity-ai.jpg' },       // AI
+  { title: 'Writing Practice', image: '/images/gallery-6.jpg' },          // real
+  { title: 'Playgroup Room', image: '/images/program-playgroup-ai.jpg' }, // AI
+  { title: 'Colourful Classroom', image: '/images/gallery-9.jpg' },       // real
 ];
 
 export default function Gallery() {

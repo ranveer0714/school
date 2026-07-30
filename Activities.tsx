@@ -2,12 +2,12 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const ACTIVITIES = [
-  { title: "Painting Class", image: "/images/activity.svg" },
-  { title: "Reading Time", image: "/images/classroom.svg" },
-  { title: "Music & Dance", image: "/images/activity.svg" },
-  { title: "Outdoor Play", image: "/images/hero.svg" },
-  { title: "Field Trips", image: "/images/programs.svg" },
-  { title: "Art & Craft", image: "/images/activity.svg" }
+  { title: "Reading Time", image: "/images/gallery-2.jpg" },              // real
+  { title: "Outdoor Play", image: "/images/activity-ai.jpg" },            // AI
+  { title: "Art & Craft", image: "/images/gallery-5.jpg" },               // real
+  { title: "Junior KG Class", image: "/images/program-lkg-ai.jpg" },      // AI
+  { title: "Young Learners", image: "/images/gallery-8.jpg" },            // real
+  { title: "Senior KG Class", image: "/images/program-ukg-ai.jpg" },      // AI
 ];
 
 export default function Activities() {

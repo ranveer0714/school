@@ -71,7 +71,7 @@ export default function Hero() {
             {/* Main Generated Image */}
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white rotate-[-2deg] hover:rotate-0 transition-transform duration-500 z-20">
               <img 
-                src="/images/hero.svg" 
+                src="/images/hero-ai.jpg" 
                 alt="Happy kindergarten children" 
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
@@ -86,8 +86,8 @@ export default function Hero() {
             >
               <div className="rounded-xl overflow-hidden mb-2 h-32 md:h-48 border border-border/50">
                 <img 
-                  src="/images/classroom.svg" 
-                  alt="Reference graphic" 
+                  src="/images/gallery-3.jpg" 
+                  alt="Our classroom" 
                   className="w-full h-full object-cover"
                 />
               </div>

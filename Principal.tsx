@@ -19,7 +19,7 @@ export default function Principal() {
           <div className="w-full md:w-2/5 shrink-0">
             <div className="relative w-64 h-64 md:w-full md:h-96 mx-auto rounded-4xl overflow-hidden shadow-xl border-4 border-white -rotate-3">
               <img 
-                src="/images/principal.svg" 
+                src="/images/principal-ai.jpg" 
                 alt="Mrs. Anjana Sharma, Principal" 
                 className="w-full h-full object-cover"
               />

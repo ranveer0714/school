@@ -39,7 +39,7 @@ export default function VideoGallery() {
               transition={{ delay: index * 0.1 }}
               className="relative overflow-hidden rounded-[2rem] bg-background shadow-lg aspect-video"
             >
-              <img src="/images/activity.svg" alt="" className="absolute inset-0 h-full w-full object-cover" />
+              <img src={['/images/gallery-4.jpg', '/images/gallery-1.jpg', '/images/gallery-3.jpg'][index]} alt="" className="absolute inset-0 h-full w-full object-cover" />
               <div className="absolute inset-0 bg-black/30" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-6">
                 <PlayCircle size={56} className="drop-shadow-md mb-3" />

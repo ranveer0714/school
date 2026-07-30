@@ -7,7 +7,7 @@ const PROGRAMS = [
     title: "Play Group",
     age: "2 - 3 Years",
     desc: "A gentle introduction to learning through guided play, sensory activities, and social interaction.",
-    image: "/images/program-playgroup.svg",
+    image: "/images/program-playgroup-ai.jpg",
     color: "from-sky/20 to-transparent",
     btnColor: "bg-sky text-white hover:bg-sky/90"
   },
@@ -15,7 +15,7 @@ const PROGRAMS = [
     title: "Nursery",
     age: "2.5 - 3.5 Years",
     desc: "Focusing on motor skills, vocabulary building, and creative expression in a structured environment.",
-    image: "/images/program-nursery.svg",
+    image: "/images/program-nursery-ai.jpg",
     color: "from-sunshine/20 to-transparent",
     btnColor: "bg-sunshine text-foreground hover:bg-sunshine/90"
   },
@@ -23,7 +23,7 @@ const PROGRAMS = [
     title: "Junior KG (LKG)",
     age: "3.5 - 4.5 Years",
     desc: "Introducing foundational literacy, numeracy, and environmental awareness through fun themes.",
-    image: "/images/program-lkg.svg",
+    image: "/images/program-lkg-ai.jpg",
     color: "from-fresh/20 to-transparent",
     btnColor: "bg-fresh text-white hover:bg-fresh/90"
   },
@@ -31,7 +31,7 @@ const PROGRAMS = [
     title: "Senior KG (UKG)",
     age: "4.5 - 5.5 Years",
     desc: "Preparing children for primary school with advanced reading, writing, math, and logical thinking.",
-    image: "/images/program-ukg.svg",
+    image: "/images/program-ukg-ai.jpg",
     color: "from-softpink/20 to-transparent",
     btnColor: "bg-softpink text-white hover:bg-softpink/90"
   }
