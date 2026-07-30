@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="Nursery learning">
+  <rect width="700" height="500" fill="#fff2bf"/>
+  <rect x="105" y="100" width="490" height="285" rx="36" fill="#ffffff"/>
+  <rect x="160" y="160" width="130" height="130" rx="24" fill="#ffd54f"/>
+  <rect x="315" y="160" width="130" height="130" rx="24" fill="#f48fb1"/>
+  <rect x="470" y="160" width="70" height="130" rx="24" fill="#66bb6a"/>
+  <text x="225" y="245" text-anchor="middle" font-family="Arial" font-size="80" font-weight="700" fill="#ffffff">A</text>
+  <text x="380" y="245" text-anchor="middle" font-family="Arial" font-size="80" font-weight="700" fill="#ffffff">B</text>
+</svg>

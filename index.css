@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-card-border: hsl(var(--card-border));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-popover-border: hsl(var(--popover-border));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-primary-border: var(--primary-border);
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-secondary-border: var(--secondary-border);
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-muted-border: var(--muted-border);
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-accent-border: var(--accent-border);
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-destructive-border: var(--destructive-border);
+
+  /* Custom App Colors */
+  --color-sky: hsl(199 92% 64%);
+  --color-sunshine: hsl(46 100% 65%);
+  --color-fresh: hsl(123 43% 57%);
+  --color-softpink: hsl(340 79% 76%);
+
+  --font-sans: var(--app-font-sans);
+  --font-display: var(--app-font-display);
+
+  --radius-sm: calc(var(--radius) - 8px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 8px);
+}
+
+/* LIGHT MODE */
+:root {
+  --button-outline: rgba(0, 0, 0, 0.1);
+  --badge-outline: rgba(0, 0, 0, 0.05);
+  --opaque-button-border-intensity: -8;
+
+  --elevate-1: rgba(0, 0, 0, 0.03);
+  --elevate-2: rgba(0, 0, 0, 0.08);
+
+  /* Light Background #F8FCFF */
+  --background: 206 100% 98%;
+  --foreground: 222 47% 11%;
+  
+  --border: 214.3 31.8% 91.4%;
+  
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --card-border: 214.3 31.8% 91.4%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+  --popover-border: 214.3 31.8% 91.4%;
+
+  /* Sky Blue #4FC3F7 */
+  --primary: 199 92% 64%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Fresh Green #66BB6A */
+  --secondary: 123 43% 57%;
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  /* Sunshine Yellow #FFD54F */
+  --accent: 46 100% 65%;
+  --accent-foreground: 222 47% 11%;
+
+  /* Soft Pink #F48FB1 */
+  --destructive: 340 79% 76%;
+  --destructive-foreground: 0 0% 100%;
+
+  --input: 214.3 31.8% 91.4%;
+  --ring: 199 92% 64%;
+
+  --app-font-sans: 'Nunito Sans', sans-serif;
+  --app-font-display: 'Poppins', sans-serif;
+  
+  /* 20-30px radius as requested */
+  --radius: 1.5rem; 
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.dark {
+  /* Using same for dark mode to keep it bright and colorful, or slightly muted if preferred. For this app, light mode is primary. */
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+  
+  --border: 217.2 32.6% 17.5%;
+  
+  --card: 222 47% 11%;
+  --card-foreground: 210 40% 98%;
+  --card-border: 217.2 32.6% 17.5%;
+
+  --popover: 222 47% 11%;
+  --popover-foreground: 210 40% 98%;
+  --popover-border: 217.2 32.6% 17.5%;
+
+  --primary: 199 92% 64%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 123 43% 57%;
+  --secondary-foreground: 0 0% 100%;
+
+  --muted: 217.2 32.6% 17.5%;
+  --muted-foreground: 215 20.2% 65.1%;
+
+  --accent: 46 100% 65%;
+  --accent-foreground: 222 47% 11%;
+
+  --destructive: 340 79% 76%;
+  --destructive-foreground: 210 40% 98%;
+
+  --input: 217.2 32.6% 17.5%;
+  --ring: 199 92% 64%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+.glass-card {
+  @apply bg-white/40 backdrop-blur-md border border-white/60 shadow-lg;
+}
+
+.glass-nav {
+  @apply bg-white/70 backdrop-blur-lg border-b border-white/50 shadow-sm;
+}

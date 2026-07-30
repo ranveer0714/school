@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Children activity illustration">
+  <rect width="900" height="700" fill="#effbe8"/>
+  <rect y="500" width="900" height="200" fill="#b9ecff"/>
+  <circle cx="130" cy="110" r="58" fill="#ffd54f"/>
+  <path d="M90 510c70-120 170-120 240 0z" fill="#66bb6a"/>
+  <path d="M315 510c80-155 205-155 285 0z" fill="#4fc3f7"/>
+  <path d="M580 510c55-100 135-100 190 0z" fill="#f48fb1"/>
+  <circle cx="365" cy="355" r="45" fill="#ffd7ad"/>
+  <rect x="320" y="400" width="90" height="105" rx="28" fill="#ffd54f"/>
+  <circle cx="505" cy="350" r="45" fill="#ffd7ad"/>
+  <rect x="460" y="395" width="90" height="110" rx="28" fill="#f48fb1"/>
+  <path d="M390 430c52 44 91 44 140 0" stroke="#ffffff" stroke-width="18" stroke-linecap="round" fill="none"/>
+  <circle cx="700" cy="430" r="35" fill="#ffd54f"/>
+  <circle cx="750" cy="455" r="28" fill="#4fc3f7"/>
+  <circle cx="650" cy="465" r="26" fill="#f48fb1"/>
+</svg>

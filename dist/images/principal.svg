@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="School principal portrait illustration">
+  <rect width="800" height="1000" fill="#e7f7ff"/>
+  <circle cx="400" cy="290" r="155" fill="#ffd7ad"/>
+  <path d="M255 285c18-175 278-176 291 3-58-48-205-50-291-3z" fill="#3c2a25"/>
+  <circle cx="345" cy="305" r="13" fill="#222222"/>
+  <circle cx="455" cy="305" r="13" fill="#222222"/>
+  <path d="M350 382c35 30 69 30 104 0" stroke="#c86b68" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M210 950c25-300 355-300 380 0z" fill="#4fc3f7"/>
+  <path d="M310 610h180l-90 130z" fill="#ffffff"/>
+  <rect x="190" y="760" width="420" height="90" rx="45" fill="#ffffff" opacity="0.85"/>
+  <rect x="255" y="793" width="290" height="24" rx="12" fill="#ffd54f"/>
+</svg>

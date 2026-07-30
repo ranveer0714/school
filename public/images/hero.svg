@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Happy kindergarten classroom">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b9ecff"/>
+      <stop offset="100%" stop-color="#fff2b8"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff7df"/>
+      <stop offset="100%" stop-color="#ffd4e4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky)"/>
+  <rect y="530" width="1200" height="270" fill="url(#floor)"/>
+  <circle cx="1050" cy="120" r="70" fill="#ffd54f"/>
+  <rect x="95" y="140" width="350" height="270" rx="36" fill="#ffffff" opacity="0.9"/>
+  <rect x="140" y="190" width="260" height="34" rx="17" fill="#4fc3f7"/>
+  <rect x="140" y="255" width="210" height="28" rx="14" fill="#66bb6a"/>
+  <rect x="140" y="315" width="240" height="28" rx="14" fill="#f48fb1"/>
+  <rect x="690" y="150" width="360" height="280" rx="38" fill="#ffffff" opacity="0.9"/>
+  <path d="M745 360c55-135 214-131 258 0z" fill="#66bb6a"/>
+  <circle cx="815" cy="260" r="55" fill="#ffd54f"/>
+  <circle cx="920" cy="255" r="52" fill="#f48fb1"/>
+  <circle cx="500" cy="485" r="88" fill="#4fc3f7"/>
+  <circle cx="500" cy="390" r="58" fill="#ffd7ad"/>
+  <path d="M445 388c30-80 115-75 132 1-27-24-89-24-132-1z" fill="#4f2f1d"/>
+  <rect x="414" y="565" width="172" height="150" rx="38" fill="#4fc3f7"/>
+  <circle cx="360" cy="520" r="78" fill="#66bb6a"/>
+  <circle cx="360" cy="430" r="52" fill="#ffcfaa"/>
+  <path d="M315 430c26-68 96-65 114 0-32-20-70-20-114 0z" fill="#5b3b2b"/>
+  <rect x="287" y="590" width="146" height="125" rx="34" fill="#66bb6a"/>
+  <circle cx="645" cy="525" r="75" fill="#f48fb1"/>
+  <circle cx="645" cy="440" r="50" fill="#ffd7ad"/>
+  <path d="M601 442c25-66 91-63 108 0-28-22-70-20-108 0z" fill="#3c2a25"/>
+  <rect x="576" y="592" width="138" height="124" rx="34" fill="#f48fb1"/>
+  <rect x="170" y="700" width="850" height="30" rx="15" fill="#ffffff" opacity="0.8"/>
+  <circle cx="260" cy="625" r="24" fill="#ffd54f"/>
+  <circle cx="820" cy="615" r="34" fill="#4fc3f7"/>
+  <circle cx="900" cy="645" r="26" fill="#66bb6a"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="Junior KG">
+  <rect width="700" height="500" fill="#e6f7e3"/>
+  <rect x="90" y="90" width="520" height="320" rx="42" fill="#ffffff"/>
+  <path d="M180 330h340" stroke="#66bb6a" stroke-width="28" stroke-linecap="round"/>
+  <circle cx="250" cy="230" r="68" fill="#4fc3f7"/>
+  <rect x="340" y="170" width="145" height="120" rx="28" fill="#ffd54f"/>
+  <path d="M220 235h60M250 205v60" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+</svg>

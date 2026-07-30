@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="Senior KG">
+  <rect width="700" height="500" fill="#ffe0ec"/>
+  <rect x="115" y="90" width="470" height="320" rx="42" fill="#ffffff"/>
+  <rect x="170" y="150" width="360" height="42" rx="21" fill="#f48fb1"/>
+  <rect x="170" y="225" width="260" height="34" rx="17" fill="#4fc3f7"/>
+  <rect x="170" y="295" width="310" height="34" rx="17" fill="#66bb6a"/>
+  <circle cx="515" cy="315" r="48" fill="#ffd54f"/>
+</svg>

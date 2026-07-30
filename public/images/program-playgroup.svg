@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" role="img" aria-label="Play group children">
+  <rect width="700" height="500" fill="#d8f3ff"/>
+  <circle cx="120" cy="90" r="52" fill="#ffd54f"/>
+  <rect x="110" y="310" width="480" height="95" rx="28" fill="#ffffff"/>
+  <circle cx="250" cy="230" r="58" fill="#ffd7ad"/>
+  <rect x="190" y="285" width="120" height="110" rx="34" fill="#4fc3f7"/>
+  <circle cx="445" cy="230" r="58" fill="#ffd7ad"/>
+  <rect x="385" y="285" width="120" height="110" rx="34" fill="#66bb6a"/>
+</svg>
